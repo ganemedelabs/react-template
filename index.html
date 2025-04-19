@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://ganemedelabs.github.io/react-template/" />
+        <meta
+            name="description"
+            content="A React template built with Vite, featuring TypeScript, TailwindCSS, ESLint, Prettier, Docker, PWA (Workbox), and GitHub Pages deployment action configured to support BrowserRouter."
+        />
+        <title>React Template</title>
+
+        <link rel="manifest" href="/react-template/manifest.json" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/react-template/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/react-template/images/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/react-template/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/react-template/images/favicons/favicon-16x16.png" />
+        <meta name="theme-color" content="#000000" />
+
+        <script type="text/javascript">
+            /**
+             * Single Page Apps for GitHub Pages
+             * MIT License
+             * https://github.com/rafgraph/spa-github-pages
+             *
+             * This script handles redirects for single-page applications hosted on GitHub Pages.
+             * It checks for redirect information in the query string, decodes it into the correct URL,
+             * and updates the browser's history using window.history.replaceState(...) without causing
+             * the browser to reload the page. This ensures that when the single page app loads,
+             * the correct URL is available in the browser's history for proper routing.
+             */
+            (() => {
+                const l = window.location;
+                if (l.search[1] === "/") {
+                    const decoded = l.search
+                        .slice(1)
+                        .split("&")
+                        .map((s) => s.replace(/~and~/g, "&"))
+                        .join("?");
+                    window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+                }
+            })();
+        </script>
+      <script type="module" crossorigin src="/react-template/index.js"></script>
+      <link rel="stylesheet" crossorigin href="/react-template/index.css">
+    </head>
+
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+
+    </body>
+</html>
