@@ -1,6 +1,6 @@
 # React Template
 
-![eslint version](https://img.shields.io/badge/eslint-9.24.0-4B32C3?logo=eslint&logoColor=white)
+![eslint version](https://img.shields.io/badge/eslint-9.25.0-4B32C3?logo=eslint&logoColor=white)
 ![prettier version](https://img.shields.io/badge/prettier-3.5.3-F7B93E?logo=prettier&logoColor=white)
 ![react version](https://img.shields.io/badge/react-19.1.0-61DAFB?logo=react&logoColor=white)
 ![tailwindcss version](https://img.shields.io/badge/tailwindcss-4.0.0-06B6D4?logo=tailwindcss&logoColor=white)
