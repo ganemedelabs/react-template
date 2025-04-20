@@ -68,11 +68,11 @@ A modern React template created with Vite, Typescript, and Vitest. Pre-configure
     docker run -p 3000:3000 react-template
     ```
 
-    - This will start the development server at `http://localhost:3000/react-template/`.
+This will start the development server at `http://localhost:3000/react-template/`.
 
 ## ⚙️ BrowserRouter Support
 
-Unlike many GitHub Pages setups that require the use of `HashRouter` due to URL routing limitations, this template is compatible with `BrowserRouter` thanks to the configuration provided by [rafgraph's Single Page Apps for GitHub Pages](https://github.com/rafgraph/spa-github-pages). It uses a custom `404.html` file and a redirect script to handle URL routing correctly and avoid 404 errors on page reloads. Be sure to update the `homepage` field in `package.json` to match your repository URL.
+Unlike many GitHub Pages setups that require the use of `HashRouter` due to URL routing limitations, this template is compatible with `BrowserRouter` thanks to the configuration provided by [rafgraph's Single Page Apps for GitHub Pages](https://github.com/rafgraph/spa-github-pages). It uses a custom `404.html` file and a redirect script to handle URL routing correctly and avoid 404 errors on page reloads.
 
 ## 🚢 Deploying to GitHub Pages
 
